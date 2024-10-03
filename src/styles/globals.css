@@ -1,0 +1,46 @@
+.input {
+  height: 40px;
+  width: 415px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid rgb(143, 143, 143);
+  font-size: 17px;
+}
+button {
+  height: 44px;
+  width: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(168, 168, 168);
+  font-size: 17px;
+}
+.box {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgb(229, 229, 229);
+  border-radius: 10px;
+  font-size: 32px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+.delete {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
